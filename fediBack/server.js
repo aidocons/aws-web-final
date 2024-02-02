@@ -8,7 +8,7 @@ app.use(cors());
 const db = mysql.createConnection({
   host: '10.0.200.59',
   user: 'admin',
-  password: 'admin',
+  password: 'adminadmin',
   database: 'studentsdb',
 });
 
