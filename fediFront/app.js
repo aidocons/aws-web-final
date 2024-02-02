@@ -30,7 +30,7 @@ async function getStudentById() {
     return;
   }
 
-  const response = await fetch(`http://localhost:3000/api/student/${studentId}`);
+  const response = await fetch(`http://10.0.168.95:3000/api/student/${studentId}`);
   const result = await response.json();
 
   const resultContainer = document.getElementById('student-details-result');
