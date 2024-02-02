@@ -6,7 +6,7 @@ if (typeof window !== 'undefined') {
 }
 
 async function fetchData() {
-  const response = await fetch('http://localhost:3000/api/data');
+  const response = await fetch('http://10.0.168.95:3000/api/data');
   const data = await response.json();
 
   const dataContainer = document.getElementById('server-data');
