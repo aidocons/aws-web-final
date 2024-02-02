@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex Website</title>
+</head>
+<body>
+  <h1>Welcome to the Complex Website</h1>
+  
+  <div id="data-container">
+    <h2>Data from Server:</h2>
+    <p id="server-data"></p>
+  </div>
+
+  <div id="student-details">
+    <h2>Get Student by ID:</h2>
+    <label for="student-id">Enter Student ID:</label>
+    <input type="number" id="student-id" />
+    <button onclick="getStudentById()">Get Details</button>
+    <p id="student-details-result"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
